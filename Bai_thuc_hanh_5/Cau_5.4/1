@@ -1,0 +1,13 @@
+def sort list(input_list):
+   """
+   Hàm sắp xếp danh sách theo thứ tự tăng dần.
+   """
+   return sorted (input_list)
+def find_max_min(input_list):
+   """
+   Hàm tìm phần tử lớn nhất và nhỏ nhất trong danh sách.
+   """
+   Trả về một tuple (min_value, max_value).
+   min value = min (input list)
+   max_value = max (input_list)
+   return min value, max_value
