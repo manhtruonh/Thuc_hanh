@@ -1,0 +1,15 @@
+import list_unit
+def main():
+   n int (input ("Nhập số lượng phần tử của danh sách: "))
+   my_list []
+   print ("Nhập các phần tử: ")
+   for i in range(n):
+      value float (input(f"Phần tử thứ (1+1): "))
+      my_list.append (value)
+   sorted_list = list_unit.sort_list(my_list)
+   min_value, max_value = list_unit.find_max_min(my_list)
+   print (f"Danh sách sau khi sắp xếp: (sorted list}")
+   print (f"Phần tử nhỏ nhất là: (min_value}")
+   print (f"Phần tử lớn nhất là: (max_value}")
+if__name__ == "main":
+   main()
